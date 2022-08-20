@@ -1,0 +1,5 @@
+%YAML:1.0
+py_path: "/mnt/SceneFlow/src/RAFT/core"
+module_name: "OpticalFlow"
+class_name: "Optical"
+get_optical_flow: "GetFlow"
