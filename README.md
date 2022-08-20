@@ -13,7 +13,7 @@ alt="ORB-SLAM2" width="240" height="180" border="10" /></a>
 <a href="https://www.youtube.com/embed/kPwy8yA4CKM" target="_blank"><img src="http://img.youtube.com/vi/kPwy8yA4CKM/0.jpg" 
 alt="ORB-SLAM2" width="240" height="180" border="10" /></a>
 
-[overview](https://github.com/luyu94/SFSS-SLAM/blob/master/images/overview.jpg)
+![overview](https://github.com/luyu94/SFSS-SLAM/blob/master/images/overview.jpg)
 # 1.
 
 # 2. Prerequisites
