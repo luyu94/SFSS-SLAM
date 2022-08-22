@@ -1,6 +1,3 @@
-# Ubuntu 18.04
-# RAFT Mask_RCNN
-python == 3.6
 cuda == 10.1
 torch  1.6.0+cu101
 opencv-python == 3.4.5.20
