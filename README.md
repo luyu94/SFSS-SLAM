@@ -12,10 +12,11 @@ We provide examples to run proposed SLAM system in the TUM dataset and sorce cod
 
 # Prerequisites
 ## ORB-SLAM2
-The system needs ORB-SLAM2 prerequisites, it can be found at: https://github.com/raulmur/ORB_SLAM2.
+The system needs ORB-SLAM2 prerequisites and it can be found at: https://github.com/raulmur/ORB_SLAM2.
 We tested the project in Ubuntu 18.04 using OpenCV 3.4.5 and Eigen3 3.2.10.
 ## Mask-RCNN
-Install python 3.5
+Mask-RCNN is found at https://github.com/matterport/Mask_RCNN.
+Install `python==3.6.9 tensorflow-gpu==2.1.0`
 
 
 # 3. Building library and examples
