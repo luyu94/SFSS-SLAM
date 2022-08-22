@@ -6,38 +6,19 @@ In this paper we propose **SFSS-SLAM**, a novel motion removal visual system bui
 
 We provide examples to run proposed SLAM system in the TUM dataset and sorce code to obtain scene flow.
 
-<a href="https://www.youtube.com/embed/ufvPS5wJAx0" target="_blank"><img src="http://img.youtube.com/vi/ufvPS5wJAx0/0.jpg" 
-alt="ORB-SLAM2" width="240" height="180" border="10" /></a>
-<a href="https://www.youtube.com/embed/T-9PYCKhDLM" target="_blank"><img src="http://img.youtube.com/vi/T-9PYCKhDLM/0.jpg" 
-alt="ORB-SLAM2" width="240" height="180" border="10" /></a>
-<a href="https://www.youtube.com/embed/kPwy8yA4CKM" target="_blank"><img src="http://img.youtube.com/vi/kPwy8yA4CKM/0.jpg" 
-alt="ORB-SLAM2" width="240" height="180" border="10" /></a>
 
 ![overview](https://github.com/luyu94/SFSS-SLAM/blob/master/images/overview.jpg)
-# 1.
+![scene](https://github.com/luyu94/SFSS-SLAM/blob/master/images/scene.jpg)
 
-# 2. Prerequisites
-We have tested the library in **Ubuntu 12.04**, **14.04** and **16.04**, but it should be easy to compile in other platforms. A powerful computer (e.g. i7) will ensure real-time performance and provide more stable and accurate results.
+# Prerequisites
+## ORB-SLAM2
+The system needs ORB-SLAM2 prerequisites, it can be found at: https://github.com/raulmur/ORB_SLAM2.
+We tested the project in Ubuntu 18.04 using OpenCV 3.4.5 and Eigen3 3.2.10.
+## Mask-RCNN
+Install python 3.5
 
-## C++11 or C++0x Compiler
-We use the new thread and chrono functionalities of C++11.
 
-## Pangolin
-We use [Pangolin](https://github.com/stevenlovegrove/Pangolin) for visualization and user interface. Dowload and install instructions can be found at: https://github.com/stevenlovegrove/Pangolin.
-
-## OpenCV
-We use [OpenCV](http://opencv.org) to manipulate images and features. Dowload and install instructions can be found at: http://opencv.org. **Required at leat 2.4.3. Tested with OpenCV 2.4.11 and OpenCV 3.2**.
-
-## Eigen3
-Required by g2o (see below). Download and install instructions can be found at: http://eigen.tuxfamily.org. **Required at least 3.1.0**.
-
-## DBoW2 and g2o (Included in Thirdparty folder)
-We use modified versions of the [DBoW2](https://github.com/dorian3d/DBoW2) library to perform place recognition and [g2o](https://github.com/RainerKuemmerle/g2o) library to perform non-linear optimizations. Both modified libraries (which are BSD) are included in the *Thirdparty* folder.
-
-## ROS (optional)
-We provide some examples to process the live input of a monocular, stereo or RGB-D camera using [ROS](ros.org). Building these examples is optional. In case you want to use ROS, a version Hydro or newer is needed.
-
-# 3. Building ORB-SLAM2 library and examples
+# 3. Building library and examples
 
 Clone the repository:
 ```
