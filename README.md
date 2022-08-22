@@ -21,7 +21,7 @@ We tested the project in Ubuntu 18.04 using OpenCV 3.4.5，Eigen3 3.2.10 and CUD
 Semantic segmentation Mask-RCNN is found at https://github.com/matterport/Mask_RCNN.
 Install `python==3.6.9  tensorflow-gpu==2.1.0  keras==2.8.0`
 ## RAFT
-Optical Flow network RAFT is found at https://github.com/princeton-vl/RAFT
+Optical Flow network RAFT is found at https://github.com/princeton-vl/RAFT.
 Install `torch==1.6.0+cu101`
 
 # Building library
@@ -29,6 +29,7 @@ Install `torch==1.6.0+cu101`
 Clone the repository:
 ```
 git clone https://github.com/luyu94/SFSS-SLAM.git
+
 cd SFSS-SLAM
 chmod +x build.sh
 ./build.sh
@@ -42,7 +43,7 @@ chmod +x build.sh
 
 2. Execute the following command.
 ```
-./Examples/RGB-D/rgbd_tum_scene Vocabulary/ORBvoc.txt Examples/RGB-D/TUM3.yaml PATH_OF_DATASET ASSOCIATION_FILE /mnt/SFSS-SLAM/a_output/output_fw3_xyz &> log
+./Examples/RGB-D/rgbd_tum_scene Vocabulary/ORBvoc.txt Examples/RGB-D/TUM3.yaml PATH_OF_DATASET ASSOCIATION_FILE OUTPUT_PATH
 ```
 for examle:
 ```
