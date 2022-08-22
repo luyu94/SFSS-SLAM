@@ -8,7 +8,7 @@ We provide examples to run proposed SLAM system in the TUM dataset and sorce cod
 
 
 ![overview](https://github.com/luyu94/SFSS-SLAM/blob/master/images/overview.jpg)
-![scene](https://github.com/luyu94/SFSS-SLAM/blob/master/images/scene.jpg)
+![scene](https://github.com/luyu94/SFSS-SLAM/blob/master/images/scene.png)
 
 # Prerequisites
 ## ORB-SLAM2
